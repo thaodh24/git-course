@@ -1,0 +1,4 @@
+Quiz: câu lệnh để cài đặt email và name là gì?
+
+- Command cài đặt lại email: git config --global user.email [email muốn đặt]
+- Command cài đặt lại name: git config -- global user.name [tên muốn đặt]
