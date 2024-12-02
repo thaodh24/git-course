@@ -1,0 +1,12 @@
+Quiz 01: Giải thích các câu lệnh sau
+1. git init - khởi tạo git quản lí và thêm các file vào môi trường Working directory, hay còn gọi là local.
+2. git add <file_name> - Thêm file thay đổi được chỉ định từ mỗi trường local sang Staging area.
+3. git add . - Thêm toàn bộ các file thay đổi từ môi trường local sang Staging area.
+4. git commit -m “message” - Tạo commit có chứa các file thay đổi đang ở trong môi trường Staging area và push lên môi trường Repository.
+
+
+Quiz 02: 
+- File1: môi trường repository
+- File2: môi trường Working directory
+- File3: môi trường Working directory
+
