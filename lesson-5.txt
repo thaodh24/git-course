@@ -1,0 +1,48 @@
+
+
+Quiz 01:
+- Cấu truc DOM cơ bản của một trang web:
+    <html> 
+        <header>
+            <title> 
+                'nội dung'
+            </title>
+        </header>
+        <body>
+            'nội dung'
+        </body>
+    </html>
+
+
+Quiz 02: 
+- Cấu trúc html của 1 bảng (table):
+    - Được xây dựng dựa trên hệ thống các thẻ <tr>, <td>, <th>, <table>
+        - Thẻ <th> - biểu diễn một ô tiêu đề trong hàng.
+        - Thẻ <tr> - biển diễn phần tử trong hàng
+        - Thẻ <td> - biểu diễn phần tử trong cột
+
+Ví dụ: biểu diễn 1 bảng có 3 hàng có tiêu đề lần lượt là Number, Name, Id và mỗi hàng có 3 cột 
+<table>
+    <tr>
+        <th>Number</th>
+        <th>Name</th>
+        <th>Id</th>
+    </tr>
+    <tr>
+        <td>Number 1</td>
+        <td>Name 1</td>
+        <td>Id 1</td>
+    </tr>
+    <tr>
+        <td>Number 2</td>
+        <td>Name 2</td>
+        <td>Id 1</td>
+    </tr>
+    <tr>
+        <td>Number 3</td>
+        <td>Name 3</td>
+        <td>Id 3</td>
+    </tr>
+</table>
+
+        
