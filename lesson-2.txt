@@ -1,0 +1,37 @@
+Quiz 1: 
+- git init => khởi tạo thư mục được quản lý bởi Git
+- git add <file_name> => đưa file <file_name> từ vùng Working Directory đến vùng Staging Area và những thay đổi có trong file
+- git add . => đưa tất cả những thay đổi hiện có từ vùng Working Directory đến vùng Staging Area
+- git commit -m “message” => đưa tất cả những thay đổi hiện có từ vùng Staging Area đến cùng Repository với message "message", những thay đổi này sẽ hiển thị lên git cùng lời nhắn đính kèm.
+
+
+Quiz 2:
+a. Tạo 3 file: file1, file2, file3
+    - Working Directory: 
+    - Staging Area:
+    - Repository: 
+
+b. Chạy lệnh: git init
+    - Working Directory: file1, file2, file3
+    - Staging Area:
+    - Repository: 
+
+c. Chạy lệnh: git commit -m”init project”
+    - Working Directory: file1, file2, file3
+    - Staging Area:
+    - Repository:
+    
+d. Chạy lệnh: git add file1
+    - Working Directory: file2, file3
+    - Staging Area: file1
+    - Repository:
+
+e. Chạy lệnh: git commit -m”add file1”
+    - Working Directory: file2, file3
+    - Staging Area:
+    - Repository: file1
+
+f. Chạy lệnh: git add file  
+    - Working Directory: file2, file3
+    - Staging Area:
+    - Repository: file1
