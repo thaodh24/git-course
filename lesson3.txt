@@ -1,0 +1,93 @@
+
+//Quiz 1:
+- Git commit --amend: Mở khu vực thay đổi commit message, sau đó nhấn i để insert message cần thay đổi
+- Git commit --amend -m"<message>": thay đổi commit message gần nhất thành "<message>"
+- Git restore --staged <file>: chuyển file <file> từ vùng Staging trở về vùng Working Directory
+- Git reset HEAD~1: đưa 1 commit gần nhất từ vùng Repository về vùng Working Directory và giữ nguyên những thay đổi đó => có thể conflict với data ở vùng Working Directory đang có
+
+//Quiz 2:
+a. tạo 3 file: 
+- Local: file1, file2, file3
+- Working Directory: 
+- Staging Area:
+- Repository:
+
+b. git init:
+- Local:
+- Working Directory: file1, file2, file3
+- Staging Area:
+- Repository:
+
+c. git commit -m"init project":
+- Local: 
+- Working Directory: file1, file2, file3
+- Staging Area:
+- Repository:
+
+d. git add file1:
+- Local: 
+- Working Directory: file2, file3
+- Staging Area: file1
+- Repository:
+
+e. git commit -m"add file":
+- Local: 
+- Working Directory: file2, file3
+- Staging Area:
+- Repository: file1
+
+f. git add . :
+- Local:
+- Working Directory: 
+- Staging Area: file2, file3
+- Repository: file1
+
+g. git restore --staged file2 :
+- Local: 
+- Working Directory: file2
+- Staging Area: file3
+- Repository: file1
+
+h. git commit -m"add all files" :
+- Local: 
+- Working Directory: 
+- Staging Area: file2
+- Repository: file1, file3
+
+i. git reset HEAD~1 :
+- Local: 
+- Working Directory: file3
+- Staging Area: file2
+- Repository: file1
+
+
+//Quiz 3:
+a. git init :
+- Local: 
+- Working Directory: 
+- Staging Area:
+- Repository:
+
+b. tạo file :
+- Local: 
+- Working Directory: file1, file2, file3
+- Staging Area:
+- Repository:
+
+c. thêm file .gitignore rồi thêm 2 dong file1.txt và oops/ :
+- Local: file1, file3
+- Working Directory: file2
+- Staging Area:
+- Repository:
+
+d. git add . :
+- Local: file1, file3
+- Working Directory: 
+- Staging Area: file2
+- Repository:
+
+e. git commit -m"init project" :
+- Local: file1, file3
+- Working Directory: 
+- Staging Area:
+- Repository: file2
